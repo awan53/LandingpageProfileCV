@@ -23,7 +23,8 @@ function App(){
         <p className="text-base/loose mb-6 opacity-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem doloremque quod atque amet temporibus a perspiciatis officiis enim quasi possimus modi, magnam facere soluta doloribus, sequi exercitationem deleniti illum architecto voluptatum natus aut? Debitis quisquam, alias cum vitae earum aut. Eos laborum possimus consequuntur. Similique, dolorum quaerat vitae nisi iusto corporis facere? Perspici</p>
 
         <div className="flex items-center sm:gap-4 gap-2"> 
-          <a href="#" className="bg-red-700 p-4 rounded-2xl hover:bg-red-500 ">
+          <a href="/v2.1 New CV Gunawan 2025 v.1.2.1 (Revisi).pdf"
+          download="v2.1 New CV Gunawan 2025 v.1.2.1 (Revisi).pdf" className="bg-red-700 p-4 rounded-2xl hover:bg-red-500 ">
             Download CV <i className="ri-download-line"></i>
           </a>
           <a href="#project" className="bg-zinc-700 p-4 rounded-2xl hover:bg-zinc-500 ">
