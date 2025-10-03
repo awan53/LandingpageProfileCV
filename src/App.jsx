@@ -113,7 +113,27 @@ function App(){
 {/* section kemampuan */}
 
 {/* Kontak saya  */}
+<section id="kontak-saya" className="py-20 text-white" style={{ scrollMarginTop: '88px' }}>
+      <div className="container mx-auto px-4 text-center">
+    {/* Judul */}
+    <h2 className="text-3xl font-bold mb-10">kontak saya</h2>
+    <p className="mb-6"> Hubungi saya melalui Whatshapp atau email di bawah  ini</p>
 
+    {/* Grid Skill (contoh kalau mau daftar skill) */}
+    <div className="flex justify-center gap-6">
+      <a
+        href="https://wa.me/6289698731582" // ganti dengan nomor kamu
+        target="_blank"
+        rel="noopener noreferrer"
+        className="px-6 py-3 bg-green-600 rounded-lg hover:bg-green-700 flex items-center gap-2"
+      >
+        <span>📱 WhatsApp</span>
+      </a>
+      
+    </div>
+  </div>
+
+</section>
 
 {/* Kontak saya  */}
 

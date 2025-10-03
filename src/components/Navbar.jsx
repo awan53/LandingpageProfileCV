@@ -58,7 +58,7 @@ const Navbar = () => {
             {/* kemampuan */}
             {/*Kontak*/}
             <li>
-                <a href="#kontak" className="text-lg font-medium">Kontak</a>
+                <a href="#kontak-saya" className="text-lg font-medium">Kontak</a>
             </li> 
             {/* Kontak */}
         </ul>
