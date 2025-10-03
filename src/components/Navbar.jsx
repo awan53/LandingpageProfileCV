@@ -1,5 +1,6 @@
 
 import { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 
 
 
@@ -7,6 +8,7 @@ import { useState, useEffect } from "react";
 const Navbar = () => {
     
     const [active, setActive] = useState(false);
+    const {t, i18n} = useTranslation();
 
 
     useEffect(() =>
@@ -37,30 +39,56 @@ const Navbar = () => {
             ${active ? "top-16 opacity-100 bg-white/30 backdrop-blur-md p-4 rounded-b-2xl" : "-top-10 opacity-0"}`}>
                 {/* Navbar Beranda */}
             <li>
-                <a href="#beranda" className="text-lg font-medium">Beranda</a>
+                <a href="#beranda" className="text-lg font-medium">{t('nav.beranda')}</a>
             </li>
             {/* Navbar Beranda */}
 
             {/* Navbar Tentang */}
             <li>
-                <a href="#tentang" className="text-lg font-medium">Tentang</a>
+                <a href="#tentang" className="text-lg font-medium">{t('nav.tentang')}</a>
             </li>
             {/* Navbar Tentang */}
             {/* Navbar Project */}
             <li>
-                <a href="#project" className="text-lg font-medium">Project</a>
+                <a href="#project" className="text-lg font-medium">{t('nav.project')}</a>
             </li> 
             {/* Navbar Project */}
             {/* kemampuan */}
             <li>
-                <a href="#Skill" className="text-lg font-medium">Kemapuan</a>
+                <a href="#Skill" className="text-lg font-medium">{t('nav.kemampuan')}</a>
             </li>
             {/* kemampuan */}
             {/*Kontak*/}
             <li>
-                <a href="#kontak-saya" className="text-lg font-medium">Kontak</a>
+                <a href="#kontak-saya" className="text-lg font-medium">{t('nav.kontak')}</a>
             </li> 
             {/* Kontak */}
+
+
+            {/* button ubah bahasa */}
+             <li className="flex items-center gap-2">
+          <button
+            onClick={() => i18n.changeLanguage("id")}
+            className={`px-2 py-1 rounded ${
+              i18n.language === "id"
+                ? "bg-red-600 text-white"
+                : "bg-gray-200 text-black"
+            }`}
+          >
+            id
+          </button>
+          <button
+            onClick={() => i18n.changeLanguage("en")}
+            className={`px-2 py-1 rounded ${
+              i18n.language === "en"
+                ? "bg-blue-600 text-white"
+                : "bg-gray-200 text-black"
+            }`}
+          >
+            en
+          </button>
+        </li>
+            {/* button ubah bahasa */}
         </ul>
     </div>
   )

@@ -1,0 +1,26 @@
+{
+  "section1": {
+    "greeting": "Hi, I'm Muhammad Gunawan",
+    "qoutes" :"Learning knows no age, for every day is a new opportunity to grow",
+    "desc": "I've explored many things, from creating technical documentation (SRS, BRD, User Manual), working as IT support, to assisting with project coordination. Currently, I'm focusing on learning Java Spring Boot and React to excel in application development. For me, it's never too late to learn—every day is a new opportunity to grow. 🚀",
+    "buttonCv": "Download CV",
+    "buttonProject": "View Projects"
+  },
+  "section2": {
+    "About": "About",
+    "desc": "Experience in Technical Writing, IT Support, and Project Coordination across various industries, including finance, technology, and public services. Experienced in preparing technical documentation (SRS, BRD, User Manuals), supporting the implementation of large-scale projects like Modern Office at Bank Indonesia, and ensuring smooth IT operations in various companies. \n \nI also possess expertise in application development using Spring Boot and database management, as well as an understanding of graphic design using Photoshop and Illustrator. This combination of technical skills, communication, and project management makes me flexible in adapting to both business and technology needs"
+  },
+    "section3":{
+     "Project": "Project",
+     "Project-Pribadi" : "Personal Projects",
+    "Project-kerja" : "Professional Projects"
+
+    },
+  "nav": {
+    "beranda": "Home",
+    "tentang": "About",
+    "kemampuan": "Skills",
+    "project": "Projects",
+    "kontak": "Contact"
+  }
+}

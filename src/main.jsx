@@ -5,6 +5,7 @@ import App from './App.jsx';
 import './index.css'; 
 import Navbar from './components/Navbar.jsx';
 import 'remixicon/fonts/remixicon.css';
+import "./i18next.js";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
