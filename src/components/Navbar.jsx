@@ -1,6 +1,7 @@
 
 import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
+import { Link, useNavigate, useNavigation } from "react-router-dom";
 
 
 
@@ -9,6 +10,7 @@ const Navbar = () => {
     
     const [active, setActive] = useState(false);
     const {t, i18n} = useTranslation();
+    const navigate = useNavigate();
 
 
     useEffect(() =>
@@ -24,7 +26,18 @@ const Navbar = () => {
         return() => {
             window.removeEventListener("scroll", handleScroll);
         }
-        });
+        })
+        
+      const handleScrollNavigation = (path, anchorId) => {
+        navigate(path);
+
+        setTimeout(() => {
+          const element = document.getElementById(anchorId);
+          if(element){
+            element.scrollIntoView({behavior: 'smooth', block:'start'});
+          }
+        }, 100);
+      };
   return (
     <div className={`fixed top-0 w-full z-50 flex items-center justify-between 
      px-5 gap-8   transition-all duration-300 
@@ -39,28 +52,33 @@ const Navbar = () => {
             ${active ? "top-16 opacity-100 bg-white/30 backdrop-blur-md p-4 rounded-b-2xl" : "-top-10 opacity-0"}`}>
                 {/* Navbar Beranda */}
             <li>
-                <a href="#beranda" className="text-lg font-medium">{t('nav.beranda')}</a>
+                <Link to="/" onClick={(e) => {e.preventDefault();
+                  handleScrollNavigation('/', 'beranda');
+                }} className="text-lg font-medium">{t('nav.beranda')}</Link>
             </li>
             {/* Navbar Beranda */}
 
             {/* Navbar Tentang */}
             <li>
-                <a href="#tentang" className="text-lg font-medium">{t('nav.tentang')}</a>
+                <Link to="/#tentang" onClick={(e) => {e.preventDefault(); handleScrollNavigation('/', 'tentang');}} className="text-lg font-medium">{t('nav.tentang')}</Link>
             </li>
             {/* Navbar Tentang */}
             {/* Navbar Project */}
             <li>
-                <a href="#project" className="text-lg font-medium">{t('nav.project')}</a>
+                 
+                <Link to="/#project" onClick={(e) => {e.preventDefault(); handleScrollNavigation('/', 'project');}}className="text-lg font-medium">{t('nav.project')}</Link>
             </li> 
             {/* Navbar Project */}
             {/* kemampuan */}
             <li>
-                <a href="#Skill" className="text-lg font-medium">{t('nav.kemampuan')}</a>
+                
+                <Link to="/#Skill" onClick={(e) => {e.preventDefault(); handleScrollNavigation('/', 'Skill');}} className="text-lg font-medium">{t('nav.kemampuan')}</Link>
             </li>
             {/* kemampuan */}
             {/*Kontak*/}
             <li>
-                <a href="#kontak-saya" className="text-lg font-medium">{t('nav.kontak')}</a>
+                
+                <Link to="/#kontak-saya" onClick={(e) => {e.preventDefault(); handleScrollNavigation('/', 'kontak-saya');}} className="text-lg font-medium">{t('nav.kontak')}</Link>
             </li> 
             {/* Kontak */}
 

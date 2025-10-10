@@ -13,7 +13,45 @@
     "section3":{
      "Project": "Project",
      "Project-Pribadi" : "Personal Projects",
-    "Project-kerja" : "Professional Projects"
+    "Project-kerja" : "Professional Projects",
+    "more-detail" : "More Detail",
+    "projectspro":{
+      "adfood" : {
+        "title": "ERP ADFood - PT. Fungsitama Cipta Teknologi",
+        "posistion" : "Technical Writer || QA Manual",
+        "desc" : "AdFood ERP is an integrated management system for the food industry that automates production, inventory, and sales processes efficiently.",
+        "responsibility" : "Developed and maintained comprehensive user manuals using Docusaurus, performed manual testing and collaborated with the development team to identify and document bugs, and participated in requirement-gathering meetings with clients to ensure a clear understanding of project specifications."
+      },
+      "BI" : {
+        "title" : "Data Exchange Project - Bank Indonesia", 
+        "posistion": "Technical Writer",
+        "desc" : "This project aims to develop a data exchange integration system between financial institutions and the Ministry of Trade to enhance transparency in export-import transactions and improve the efficiency of internal financial reporting.",
+        "responsibility" : "Authored SRS, user manuals, and data flow diagrams for a national-level system.\n \n Collaborated with developers and auditors during the implementation process."
+
+      },
+      "Enerkom" :
+      {
+        "title" : "Implemetasi Kartu SAM - PT. Energi Jaring Komunikasi", 
+        "posistion": "Technical Writer || IT Project Coordinator ",
+        "desc" : "The implementation of the Dukcapil SAM Card is a national project aimed at enhancing the security of population data through the adoption of Secure Access Module (SAM) technology.",
+        "responsibility" : "Managed the procurement and installation of server racks and card printers. \n \n Ensured infrastructure readiness to support card issuance and compliance with data security standards. \n \n Acted as a liaison between internal teams, vendors, and government stakeholders."
+
+      }
+    },
+    "projectpersonal":{
+      "managementperpustakan": {
+        "title": "Library Management System",
+      "desc": "A simple web-based Library Management System built with Spring Boot, Bootstrap, and H2 Database."
+      },
+      "apiecommerce" :{
+        "title" :"Backend Aplikasi Toko (Spring Boot)",
+        "desc" : "This is a backend-only project for a simple e-commerce application. \n \n The backend is built using Spring Boot and currently does not include a frontend. It is suitable as a foundation for developing an e-commerce system or inventory management application"
+      },
+      "CompanyProfileApplication" :{
+        "title" : "Company Profile Application",
+        "desc" : "This Company Profile application was developed using Spring Boot, featuring both a Public and an Admin Panel. \n \n Its purpose is to provide public access to company information while enabling administrators to easily manage the company's content."
+      }
+     }
 
     },
   "nav": {

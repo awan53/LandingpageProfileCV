@@ -13,8 +13,56 @@
   "section3":{
     "Project": "Proyek",
     "Project-Pribadi" : "Proyek Pribadi",
-    "Project-kerja" : "Proyek Kerja"
+    "Project-kerja" : "Proyek Kerja",
+    "more-detail" : "Lihat Detail",
+    "view-on-github" : "liat projek saya di github",
+    "projectspro":{
+      "adfood" : {
+        "title": "ERP ADFood - PT. Fungsitama Cipta Teknologi",
+        "posistion": "Technical Writer || QA Manual",
+        "desc" : "AdFood ERP adalah sistem manajemen terpadu untuk industri makanan yang mengotomatisasi proses produksi, inventori, dan penjualan secara efisien.",
+        "responsibility" : "Menyusun dan memelihara user manual yang komprehensif menggunakan Docusaurus, melakukan pengujian manual serta berkolaborasi dengan tim pengembang untuk mengidentifikasi dan mendokumentasikan bug, serta berpartisipasi dalam rapat pengumpulan kebutuhan dengan klien untuk memastikan pemahaman yang jelas terhadap spesifikasi proyek."
+      },
+      "BI" : {
+        "title" : "Data Exchange Project - Bank Indonesia", 
+        "posistion": "Technical Writer",
+        "desc" : "Proyek ini bertujuan untuk mengembangkan sistem integrasi pertukaran data moneter antara lembaga keuangan dan Kementerian Perdagangan guna meningkatkan transparansi transaksi ekspor-impor dan efisiensi pelaporan keuangan Internal.",
+        "responsibility" : "Menyusun SRS, manual pengguna, dan diagram alur data untuk sistem tingkat nasional \n \n Berkolaborasi dengan pengembang dan auditor selama proses implementasi."
 
+      },
+      "Enerkom" :
+      {
+        "title" : "Implemetasi Kartu SAM - PT. Energi Jaring Komunikasi", 
+        "posistion": "Technical Writer || IT Project Coordinator ",
+        "desc" : "Implementasi Kartu SAM Dukcapil merupakan proyek nasional yang bertujuan untuk meningkatkan keamanan data kependudukan melalui penerapan teknologi Secure Access Module (SAM).",
+        "responsibility" : "Mengelola pengadaan dan pemasangan server rack serta card printer.\n \n Memastikan kesiapan infrastruktur untuk mendukung penerbitan kartu dan kepatuhan terhadap standar keamanan data. \n \n Bertindak sebagai penghubung antara tim internal, vendor, dan pemangku kepentingan pemerintah."
+
+      }
+    },
+     "projectpersonal":{
+      "managementperpustakan": {
+        "title": "Library Management System",
+      "desc": "Sistem Manajemen Perpustakaan berbasis web sederhana yang dibangun menggunakan Spring Boot, Bootstrap, dan H2 Database."
+      },
+      "apiecommerce" :{
+        "title" :"Backend Aplikasi Toko (Spring Boot)",
+        "desc" : "Ini adalah proyek backend-only untuk aplikasi toko sederhana. Backend ini dibangun menggunakan Spring Boot dan saat ini belum memiliki frontend. Cocok digunakan sebagai dasar pengembangan sistem e-commerce atau manajemen inventaris."
+      },
+      "CompanyProfileApplication" :{
+        "title" : "Company Profile Application",
+        "desc" : "Aplikasi Company Profile ini dikembangkan menggunakan Spring Boot dengan konsep Public & Admin Panel.\n \n Tujuannya adalah untuk memberikan informasi perusahaan secara publik dan memudahkan admin dalam mengelola konten perusahaan."
+      }
+     } 
+},
+"section4":{
+    "Project": "Proyek",
+    "Project-Pribadi" : "Proyek Pribadi",
+    "Project-kerja" : "Proyek Kerja"
+},
+"section5":{
+    "Project": "Proyek",
+    "Project-Pribadi" : "Proyek Pribadi",
+    "Project-kerja" : "Proyek Kerja"
 },
   "nav": {
     "beranda": "Beranda",
@@ -23,4 +71,6 @@
     "project": "Proyek",
     "kontak": "Kontak"
   }
+
+  
 }
