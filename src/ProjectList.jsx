@@ -143,7 +143,7 @@ function App(){
 <section id="Skill" className="py-20 text-white" style={{ scrollMarginTop: '88px' }}>
   <div className="container mx-auto px-4 text-center">
     {/* Judul */}
-    <h2 className="text-3xl font-bold mb-10">Kemampuan</h2>
+    <h2 className="text-3xl font-bold mb-10">{t('section4.skills')}</h2>
 
     {/* Grid Skill (contoh kalau mau daftar skill) */}
     <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-12">
@@ -158,6 +158,18 @@ function App(){
       </div>
       <div className="p-6 bg-zinc-800 rounded-lg shadow-lg hover:scale-105 transition">
         <h3 className="text-xl font-semibold">Spring Boot</h3>
+      </div>
+      <div className="p-6 bg-zinc-800 rounded-lg shadow-lg hover:scale-105 transition">
+        <h3 className="text-xl font-semibold">Documentation</h3>
+      </div>
+      <div className="p-6 bg-zinc-800 rounded-lg shadow-lg hover:scale-105 transition">
+        <h3 className="text-xl font-semibold">Scrum</h3>
+      </div>
+      <div className="p-6 bg-zinc-800 rounded-lg shadow-lg hover:scale-105 transition">
+        <h3 className="text-xl font-semibold">Git</h3>
+      </div>
+      <div className="p-6 bg-zinc-800 rounded-lg shadow-lg hover:scale-105 transition">
+        <h3 className="text-xl font-semibold">Postman</h3>
       </div>
     </div>
   </div>

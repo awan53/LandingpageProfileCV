@@ -15,6 +15,7 @@
      "Project-Pribadi" : "Personal Projects",
     "Project-kerja" : "Professional Projects",
     "more-detail" : "More Detail",
+    "view-on-github" : "See detail My in github",
     "projectspro":{
       "adfood" : {
         "title": "ERP ADFood - PT. Fungsitama Cipta Teknologi",
@@ -60,5 +61,15 @@
     "kemampuan": "Skills",
     "project": "Projects",
     "kontak": "Contact"
-  }
+  },
+  "section4":{
+    "skills": "Skills",
+    "Project-Pribadi" : "Proyek Pribadi",
+    "Project-kerja" : "Proyek Kerja"
+},
+"section5":{
+    "Project": "Proyek",
+    "Project-Pribadi" : "Proyek Pribadi",
+    "Project-kerja" : "Proyek Kerja"
+}
 }
