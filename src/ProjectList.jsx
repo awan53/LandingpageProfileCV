@@ -29,8 +29,8 @@ function App(){
 
       <div className="flex items-center sm:gap-4 gap-2"> 
         <a
-          href="/v2.1 New CV Gunawan 2025 v.1.2.1 (Revisi).pdf"
-          download="v2.1 New CV Gunawan 2025 v.1.2.1 (Revisi).pdf"
+          href={'${import.meta.env.BASE_URL}v2.1_New_CV_Gunawan_2025_v.1.2.1(Revisi).pdf'}
+          download="v2.1_New_CV_Gunawan_2025_v.1.2.1(Revisi).pdf"
           className="inline-flex items-center gap-2 bg-red-700 px-6 py-3 rounded-2xl hover:bg-red-500 text-white font-medium"
         >
           Download CV <i className="ri-download-line"></i>
