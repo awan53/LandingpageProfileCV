@@ -7,8 +7,5 @@ export default defineConfig({
   plugins: [react()],
   base:'/LandingpageProfileCV/',
 
-  server: {
-    historyApiFallback: true, // 🔥 ini penting untuk React Router
-  },
   
 })
